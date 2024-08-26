@@ -1,3 +1,4 @@
 document.getElementById("saludar-btn").addEventListener("click", function() {
-    document.getElementById("saludo").innerText = "Hola";
+    const nombre = document.getElementById("nombre").value;
+    document.getElementById("saludo").innerText = "Hola, " + nombre;
 });
